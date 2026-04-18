@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.vscode/
+.idea/
+*.log
+
+# Browser data (contém sessões e cookies sensíveis)
+instagram_dm_data/
+instagram_sessions/
+whatsapp_data/
+*session*
+*data* 
+!dados-instagram/
+!dados-whatsapp/
+!dados-instagram-EUA/
+
+# Arquivos CSV de dados (leads)
+# Descomente se quiser ignorar os arquivos de leads mas manter as pastas
+# dados-instagram/*.csv
+# dados-whatsapp/*.csv
